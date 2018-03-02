@@ -1,1 +1,48 @@
 privat/**/*
+# Compiled source #
+###################
+#*.com
+#*.class
+#*.dll
+#*.exe
+#*.o
+#*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+#*.7z
+#*.dmg
+#*.gz
+#*.iso
+#*.jar
+#*.rar
+#*.tar
+#*.zip
+
+# Logs and databases #
+######################
+#*.log
+#*.sqlite
+#*.sql
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+# yes, even thumbs.db may be needed in a git-annex repository
+#Thumbs.db
+
+# emacs generated files #
+#########################
+#*~ # the example for this is: http://mirror.ifarchive.org/if-archive/games/competition2014/Paradox Corps/web_paradox/README_FIRST.txt~ 
+\#*#
+.#*
+
+# rbenv
+.ruby-version
